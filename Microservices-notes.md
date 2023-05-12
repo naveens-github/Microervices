@@ -1,6 +1,7 @@
 ## Microservices:
 
 #### 1. Springboot services, 2. API Gateway, 3. Hystrix Dashboard, 4. Service Registry, 5. Zipkin Server, 6. Cloud Config Server.
+* All the above concepts help us to identify how microservices work together. And how we can create the microservices from monolithic application. And we can get an idea how to create a resilient microservices using a circuit breaker. Zipkin, Sluth libraries for a distributed log phrasing. 
 
 ## Service Registry:
 * All the Microservices will be connected to Service Registry. We can get an idea what are the different microservices available and the status of all the microservices.
@@ -21,7 +22,7 @@
 ## Zipkin server:
 * For distributed logging we will use Zipkin server.
 * If there are multiple microservices, we should be able to identify which microservice is failing and where our request is traversing. So for that we will use Zipkin and Sluth libraries.
-* We will create a Zipkin server, and then we will implement the Zipkin client and sluth libraries in all our microservices to implemet the distributed login. 
+* We will create a Zipkin server, and then we will implement the Zipkin client and sluth libraries in all our microservices to implemet the distributed logging. 
 * With this Sluth library we will be able to identify which of the services been called, what is trace id, what is the span id.
 * For each service the trace id is unique. 
 
